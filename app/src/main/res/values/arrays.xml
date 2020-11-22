@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="pets_array">
+            <item value="1">Rocky</item>
+            <item value="2">Boby</item>
+            <item value="3">Max</item>
+            <item value="4">Hecules</item>
+        </string-array>
+
+    <string-array name="servicio_array">
+        <item>Atencion Medica</item>
+        <item>Educacion Canina</item>
+        <item>Juegos de agilidad</item>
+        <item>Delivery</item>
+    </string-array>
+
+    <string-array name="animals_array">
+        <item>Macho</item>
+        <item>Hembra</item>
+    </string-array>
+
+    <string-array name="raza_array">
+        <item>Pastor alemán</item>
+        <item>Labrador Retriever</item>
+        <item>Yorkshire terrier</item>
+        <item>Beagle</item>
+        <item>Golden Retriever</item>
+        <item>Chihuahua</item>
+    </string-array>
+
+</resources>

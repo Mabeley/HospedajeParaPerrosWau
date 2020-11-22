@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistroUsuarioActivty"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageView4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_user_512" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtEmailR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:hint="Correo Electrónico"
+            />
+        <EditText
+            android:id="@+id/txtNombresR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10dp"
+            android:hint="Nombres"
+            />
+        <EditText
+            android:id="@+id/txtApellidosR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10dp"
+            android:hint="Apellidos" />
+
+        <EditText
+            android:id="@+id/txtDireccionR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="20"
+            android:layout_marginTop="10dp"
+            android:lines="2"
+            android:hint="Dirección"
+            android:gravity="start|top"
+            android:scrollbars="vertical"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/txtdni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:hint="Nro Documento" />
+
+        <EditText
+            android:id="@+id/txtCelular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_marginTop="10dp"
+            android:hint="Nro Celular" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnCrear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

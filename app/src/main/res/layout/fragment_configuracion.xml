@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ConfiguracionFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ic_user_512" />
+
+            <TextView
+                android:id="@+id/lblNombreC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Nombre"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblCorreoC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Correo" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/darker_gray" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnEditarPerfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:drawableLeft="@drawable/ic_lapiz_24"
+                    android:drawableRight="@drawable/ic_mayorsigno_16"
+                    android:text="Editar tu perfil"
+                    android:textAlignment="viewStart"
+                    android:textColor="#615F5F" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="serif"
+            android:inputType="textMultiLine"
+            android:text="Es más que un alojamiento para tu engreído, es una experiencia llena de amor, disfrute y recreación en ambientes naturales que van complementados con juegos dinámicos y divertidos.  "
+            android:longClickable="true"
+            android:layout_below="@+id/textView6"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:scrollbars = "vertical"/>
+
+        <Button
+            android:id="@+id/btninfo"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="left"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Más info sobre Genius"
+            android:textColor="#3F51B5" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/darker_gray" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnReservas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_lapiz_24"
+            android:drawableRight="@drawable/ic_mayorsigno_16"
+            android:text="Reservas"
+            android:textAlignment="viewStart"
+            android:textColor="#615F5F" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+
+        android:background="@android:color/darker_gray" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnComentario"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_lapiz_24"
+            android:drawableRight="@drawable/ic_mayorsigno_16"
+            android:text="Comentarios"
+            android:textAlignment="viewStart"
+            android:textColor="#615F5F" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+
+        android:background="@android:color/darker_gray" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnListas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_lapiz_24"
+            android:drawableRight="@drawable/ic_mayorsigno_16"
+            android:text="Listas"
+            android:textAlignment="viewStart"
+            android:textColor="#615F5F" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="#EC1A0B"
+        android:layout_gravity="center"
+        android:text="Cerrar Session" />
+
+
+</LinearLayout>
+
